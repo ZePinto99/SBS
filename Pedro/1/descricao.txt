@@ -1,0 +1,10 @@
+Este workflow deu origem a submissao 7:
+
+modelo: random forest learner(info gain ratio, 500 modelos)
+
+features usados: magnitude_of_delay, delay_in_secs, avg_temp, avg_atm_press, avg_humidity, avg_wind_speed, avg_rain, Month, week, day_of_week, hour, affected_roads_score
+
+acc local(usando cross-val, k=10) = 0.918
+
+acc kaggle: 0.93131
+
